@@ -46,7 +46,7 @@ try:
     # output it the screen as a table
     streamlit.dataframe(back_from_function)
     
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 
 except URLError as e:
   streamlit.error()
